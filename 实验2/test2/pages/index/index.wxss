@@ -1,0 +1,106 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.horizon-container{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.picker-custum {
+  font-size: 50rpx;
+  color: #fafafa;
+}
+
+text {
+  font-size: 120rpx;
+  color: #ffffff;
+}
+
+.weather-text{
+  margin-top:3.5vh;
+  font-size: 40rpx;
+  color: #ffffff;
+}
+
+image {
+  width: 220rpx;
+}
+
+.detail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 0;
+}
+
+.box {
+  width: 33.3%;
+  text-align: center;
+}
+
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* 将背景图放在最底层 */
+}
+
+.rain-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* 让雨滴效果在底层 */
+}
+
+
+.hourly-weather {
+  width: 100%;
+  display: flex;
+  overflow-x: auto; /* 允许横向滚动 */
+  white-space: nowrap; /* 防止内容换行 */
+  padding: 10px 0;
+  align-items: center;
+}
+
+.hour-item {
+  width: 12%;
+  flex-shrink: 0;
+  display: inline-block;
+  align-items: center; /* 水平居中 */
+  margin-right: 10px;
+  color: white;
+}
+
+.hour-time {
+  display: block;
+  font-size: 14px;
+}
+
+.hour-icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 5px 0;
+}
+
+.hour-temp {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
