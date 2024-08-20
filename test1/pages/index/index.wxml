@@ -1,5 +1,0 @@
-<view class = 'container'>
-  <image src='{{src}}' mode='widthFix'></image>
-  <text class="custom-text">{{name}}</text>
-  <button id="get_info" open-type="getUserInfo" bindgetuserinfo="getProfile" class="custom-button" disabled="{{isDisabled}}">点击获取头像和昵称</button>
-</view>
