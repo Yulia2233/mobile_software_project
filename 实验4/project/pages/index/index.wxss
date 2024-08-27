@@ -1,0 +1,53 @@
+video {
+  width: 100%;
+}
+
+.danmuArea {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+input {
+  margin-right: 20rpx;
+  border: 1rpx solid;
+  flex-grow: 1;
+  height: 80rpx;
+  border-radius: 10%;
+}
+
+.videoList {
+  width: 100%;
+  min-height: 400rpx;
+}
+
+.videoBar {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid;
+  margin: 10rpx;
+}
+
+image {
+  width:150rpx;
+  height: 150rpx;
+  margin: 20rpx;
+}
+
+text {
+  font-size: 45rpx;
+  color: #987938;
+  margin: 20rpx;
+  flex-grow: 1;
+}
+
+.scroll-view {
+  height: 67vh; /* 设置高度，避免滚动内容超出范围 */
+  overflow-y: auto;
+}
+
+.danmu-btn {
+  background-color: rgb(255, 183, 183);
+}
