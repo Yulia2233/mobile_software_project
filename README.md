@@ -28,7 +28,6 @@
 实验三 微信小程序云开发---垃圾分类     
 **要求:**     
 **实现功能**：   
-
 1.热搜显示功能   
 2.利用文本搜索的功能。   
 3.图像识别功能。
@@ -43,5 +42,23 @@
 ![45b15b892856ee88d167f2265bfe448](https://github.com/user-attachments/assets/373f2646-9a5c-4b9f-a622-f3bac784be7d)
 ![faad5b7fd82aa0c748f4fda9f91429d](https://github.com/user-attachments/assets/86ae01b7-bfe1-45da-b05e-c9527b643a7a)
 ![0cdf9bf9255bd16f0515f6060904c22](https://github.com/user-attachments/assets/29361dcf-1ec2-4c1f-bdad-aa2a0692b266)
+
+
+实验三 视频API-口述校史
+要求:
+**基本功能**：    
+1.实现视频播放   
+2.更新播放列表    
+3.发送随机颜色弹幕    
+**额外功能**     
+1.增加scroll-view，当视频列表边长可以下滑    
+2.存储字幕。再次播放视频时同时播放之前的弹幕    
+3.长按视频二倍速。     
+步骤手册：/实验3/实验3.md
+**完成效果**：      
+![90b7b789f1fc0abd6190bdf6c9d575b](https://github.com/user-attachments/assets/b86fc9d2-192e-495e-99b9-45518c5a3201)
+![072196b910236e3ce37ae37f23276d5](https://github.com/user-attachments/assets/140a9403-1b88-4a19-a9c1-2900a5f6670d)
+
+
 
 
