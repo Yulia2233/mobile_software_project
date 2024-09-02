@@ -44,7 +44,7 @@
 ![0cdf9bf9255bd16f0515f6060904c22](https://github.com/user-attachments/assets/29361dcf-1ec2-4c1f-bdad-aa2a0692b266)
 
 
-实验三 视频API-口述校史
+实验四 视频API-口述校史
 要求:
 **基本功能**：    
 1.实现视频播放   
@@ -60,5 +60,31 @@
 ![072196b910236e3ce37ae37f23276d5](https://github.com/user-attachments/assets/140a9403-1b88-4a19-a9c1-2900a5f6670d)
 
 
+实验五 高校新闻网
+要求:
+**基本功能**：    
+### （一）基本功能    
 
+（1）阅读新闻全文的页面需要显示新闻标题、图片、正文和日期；已经收藏过的新闻也可以点击按钮取消收藏；允许点击按钮将当前阅读的新闻添加到本地收藏夹中；    
 
+（2）登录后，显示微信头像和名称，同时显示其收藏的内容。    
+
+### （二）额外功能      
+
+（1）开启**云服务器**，实现幻灯片、收藏、新闻云存储，表单如下；     
+
+| 表单名称 | 存储内容         |     
+| -------- | ---------------- |   
+| collect  | 存储我收藏的新闻 |      
+| news     | 存储所有新闻     |     
+| imageUrl | 幻灯片的url      |      
+
+（2）小程序首先通过本地缓存查看收藏的新闻，然后通过**云存储**获取收藏的新闻。并且将更新的内容存到本地缓存；        
+
+（3）**点击幻灯片**后，**跳转**到对应新闻的详细页面。     
+**完成效果**：    
+![b968f7256ae5166e27e444403aa4c04](https://github.com/user-attachments/assets/dfd64c3b-7b2a-4377-be4e-13ba1c8d14fb)
+![f32df86f3e68364f2151eda10136456](https://github.com/user-attachments/assets/7e0e669a-5fc5-4cc8-9ff4-ed6ae9b16279)
+![41fc5ef97ee73b538b60a23e0d82099](https://github.com/user-attachments/assets/ce5ed410-3366-4df7-a3ef-ab155606bcd1)
+![a9d253b903cec081af88accaae5740c](https://github.com/user-attachments/assets/a56996c1-38a8-4a1b-a52b-e9a6e8c75059)
+![7f8f03b8b731035531d9d8fffdbc2d3](https://github.com/user-attachments/assets/a79d88b9-d7cc-4d4f-9d86-f4b4edae61b0)
