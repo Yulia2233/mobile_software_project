@@ -87,4 +87,29 @@
 ![f32df86f3e68364f2151eda10136456](https://github.com/user-attachments/assets/7e0e669a-5fc5-4cc8-9ff4-ed6ae9b16279)
 ![41fc5ef97ee73b538b60a23e0d82099](https://github.com/user-attachments/assets/ce5ed410-3366-4df7-a3ef-ab155606bcd1)
 ![a9d253b903cec081af88accaae5740c](https://github.com/user-attachments/assets/a56996c1-38a8-4a1b-a52b-e9a6e8c75059)
-![7f8f03b8b731035531d9d8fffdbc2d3](https://github.com/user-attachments/assets/a79d88b9-d7cc-4d4f-9d86-f4b4edae61b0)
+![7f8f03b8b731035531d9d8fffdbc2d3](https://github.com/user-attachments/assets/a79d88b9-d7cc-4d4f-9d86-f4b4edae61b0)    
+
+
+实验六 推箱子游戏
+要求:
+### （一）基本功能   
+ 
+1.包含四个关卡，列表中可以预览关卡内容   
+
+2.点开关卡是相应的游戏画面   
+
+3.正常的游戏功能，包括移动、重新开始、游玩成功   
+
+### （二）额外功能   
+
+1.提供**撤回**功能，点击撤回按钮可以撤回到上一步   
+
+2.提供**保存**功能。中途退出游戏后，再次点击，可以恢复到上次打开的进度。   
+
+
+步骤手册：/实验6/实验6.md
+**完成效果**：      
+![保存 -original-original](https://github.com/user-attachments/assets/6aa04f42-a388-4c0e-8b43-31eeb08ae792)
+![撤回 -original-original](https://github.com/user-attachments/assets/8cb6db83-2144-47c9-b5da-dd9cd6d2140b)
+![成功 -original-original](https://github.com/user-attachments/assets/797809e4-3f7c-46bd-a939-2189fa995206)
+
